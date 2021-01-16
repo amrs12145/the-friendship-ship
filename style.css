@@ -150,13 +150,36 @@ Button.navbar-toggler
 {
   margin-top: 20px;
 }
+.team-staff a i.fa-arrow-left,.team-staff a i.fa-arrow-right
+{
+  font-size: 20px;
+  color: #F3E200;
+  background-color: #000;
+  border: 2px solid #ffee13;
+  border-radius: 50%;
+  padding: 16px;
+  box-shadow: 0 0 20px 0px #fbff00;
+}
+.team-staff a i.fa-arrow-left
+{
+  position: absolute;
+  left: 20px;
+}
+.team-staff a i.fa-arrow-right
+{
+  position: absolute;
+  right: 20px;
+}
 
 
 
 
 
 
-.my-footer::before {  
+
+
+
+.our-footer::before {  
     content: "";
     background-image: url('assets/prof.jpg');
     background-size: cover;
@@ -168,7 +191,7 @@ Button.navbar-toggler
     opacity: 0.5;
 }
 
-.my-footer
+.our-footer
 {
   position: relative;
   background-color:#26272b;
@@ -177,25 +200,25 @@ Button.navbar-toggler
   line-height:24px;
   color:#737373;
 }
-.my-footer .pb-60
+.our-footer .pb-60
 {
     padding-bottom: 60px;
 }
-.my-footer p, .my-footer a
+.our-footer p, .our-footer a
 {
     color: #fff;
     opacity: 0.5;
 }
-.my-footer hr
+.our-footer hr
 {
   border-top-color:#bbb;
   opacity:0.5
 }
-.my-footer hr.small
+.our-footer hr.small
 {
   margin:20px 0
 }
-.my-footer h6
+.our-footer h6
 {
   color:#fff;
   font-size:16px;
@@ -203,7 +226,7 @@ Button.navbar-toggler
   margin-top:5px;
   letter-spacing:2px
 }
-.my-footer a:hover
+.our-footer a:hover
 {
   color:#3366cc;
   text-decoration:none;
@@ -227,11 +250,11 @@ Button.navbar-toggler
 {
   display:inline-block
 }
-.my-footer .social-icons
+.our-footer .social-icons
 {
   text-align:right
 }
-.my-footer .social-icons a
+.our-footer .social-icons a
 {
   width:40px;
   height:40px;
