@@ -447,68 +447,7 @@ Button.navbar-toggler
 }
 
 
-/************************ 2nd page *************/
 
 
 
 
-.contact
-{
-  background-color: #000;
-  color: #c5c5c5;
-  padding-top: 40px;
-  font-family: fangsong;
-}
-
-.contact h4
-{
-  color: #d4caca;
-  margin-top: 20px;
-  margin-bottom: 22px;
-}
-.contact p
-{
-  color: #b7b7b7;
-}
-.contact img
-{
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
-
-
-form input,form textarea
-{
-  display: block;
-  width: 90%;
-  margin: auto;
-  padding: 18px;
-  margin-bottom: 20px;
-  background-color: #000000;
-  color: #fff;
-  border: solid 2px #fff;
-  border-radius: 30px;
-  opacity: 0.6;
-  text-align: center;
-}
-form textarea
-{
-  height: 170px;
-}
-form .submit
-{
-  background-color: #000;
-  color: #fff;
-  background-image: linear-gradient(0deg,#0b9eb7, #000000, #0d5986);
-  border: solid 1px #fff;
-  opacity: .8;
-  text-transform: uppercase;
-}
-form .submit:hover
-{
-  background-image: linear-gradient(0deg, #ffffff, #8e8e8e,#fff);
-  border: solid 1px #000;
-  background-color: #fff;
-  color: #000;
-}
